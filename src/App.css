@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: black;
+  color: white;
+}
+button{
+  border-radius: 10px;
+  margin-left: 10px;
+  box-shadow: 0 0 10px white;
+  
+}
+.main{
+  display: flex;
+  align-content: center;
+  justify-content:center;
+}
+.centre{
+  width: 300px;
+  height: 500px;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 3px;
+  margin-top: 50px;
+  box-shadow: 0 0 30px white ;
+}
+input{
+  width: 200px;
+  border: 2px solid red;
+  border-radius: 2px;
+  height: 30px;
+  box-shadow: 0 0 20px red;
+}
+button.extra{
+  margin-left: 10px;
+}
+button:hover{
+  border: 3px white solid;
+}
